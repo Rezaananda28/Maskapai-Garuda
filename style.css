@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root {
+    --firstcolor: #f3a446;
+    --secondcolor: #a06235;
+    --thirdcolor: #141313;
+    --fourthcolor: #1d1d1d;
+    --whitecolor: #ffffff;
+    --bluishe: #151a20;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+header {
+  background: transparent;
+  backdrop-filter: blur(30px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 0.5rem 9%;
+  padding-top: 1px;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    color: var(--firstcolor);
+}
+
+.navbar a:hover {
+    color: whitesmoke;
+    background-color: var(--firstcolor);
+    border-radius: 15px;
+}
+
+header .logo img {
+    width: 180px;
+}
+
+#menu-bar {
+    color: var(--firstcolor);
+    cursor: pointer;
+}
+
+.main-home-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-image: url(https://wallpapers.com/images/featured/w6v47yjhxcohsjgf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem 5rem;
+    min-height: 100vh;
+    padding-top: 3%;
+}
+
+.left-content {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.left-content h2 {
+    color: white;
+    font-size: 35px;
+    padding: 1rem 0;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.left-content p {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.left-content a {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    background-color: var(--firstcolor);
+    transition: 0.6s all ease;
+}
+
+.left-content a:hover {
+    color: white;
+    border-radius: 15px;
+}
+
+.main-favourite {
+    padding: 2rem 9%;
+    width: 100%;
+    background-image: url( );
+
+}
+
+.main-header-title h1 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--firstcolor);
+    padding-bottom: 3rem;
+}
+
+.favourite-inner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.inner-favourite {
+    width: 400px;
+    height: 300px;
+    flex: 1 1 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 2rem 0;
+    transition: 1s all ease;
+    border-radius: 15px;
+}
+
+.inner-favourite:hover {
+    background: var(--firstcolor);
+}
+
+.inner-favourite .fav-content {
+    text-align: center;
+}
+
+/*.inner-favourite .fav-content img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.inner-favourite:hover .fav-content img {
+    transform: translateY(-10px);
+}
+
+.fav-content h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.fav-content p {
+    color: white;
+    padding: 1rem 0;
+
+}*/
+
+.fav-content a {
+    padding: 0.5rem 2rem;
+    color: white;
+    text-decoration: none;
+    background: var(--firstcolor);
+    align-items: end;
+}
+
+.fav-content a:hover {
+    background-color: #215cb482;
+}
+ 
+#promo1 {
+    background-image: url(https://www.garuda-indonesia.com/content/dam/garuda/offers/thumb-mandiri-april2023-id.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+#promo2 {
+    background-image: url(https://www.garuda-indonesia.com/content/dam/garuda/garudamiles/thumbnail-bni-cobrand.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+#promo3 {
+    background-image: url(https://opsi.id/uploads/gambar-1642142806.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+#promo4 {
+    background-image: url(https://bumntrack.co.id/wp-content/uploads/2022/01/Penawaran-garuda-Indonesia.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+#promo5 {
+    background-image: url(https://tras.id/wp-content/uploads/2020/07/IMG-20200723-WA0049.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+#promo6 {
+    background-image: url(https://www.halloriau.com/foto_berita/74vaksinGaruda.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+.my-back {
+    width: 100%;
+    background-image: url(https://wallpapers.com/images/hd/aesthetic-photograph-at-the-airport-u0t5693l2ut5fl9w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.our-menu {
+    padding: 2rem 9%;
+    background-image: url(images/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our-menu-title h1 {
+    font-size: 40px;
+    padding: 2rem;
+    text-align: center;
+    color: #f3a446;
+}
+
+.main-menu-sec {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.inner-menu-con {
+    flex: 1 1 300px;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+.inner-menu-content {
+    width: 300px;
+    height: 200px;
+    background-color: #1d1d1d82;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1000;
+    transition: 1s all;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.inner-menu-content img {
+    width: 150px;
+    margin-top: -60px;
+
+}
+
+.inner-menu-content p {
+    font-size: 1rem;
+    padding: 1rem 0;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.inner-menu-content a {
+    margin-bottom: 5px;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.inner-menu-content a:hover {
+    color: var(--firstcolor);
+}
+
+#destinasi1 {
+    background-image: url(https://dailyhotels.id/wp-content/uploads/2022/06/Bali.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#destinasi2 {
+    background-image: url(https://img.okezone.com/content/2020/12/23/408/2332988/7-destinasi-wisata-menawan-bak-surga-di-ntt-untuk-liburan-akhir-tahun-KmkomrYZhR.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#destinasi3 {
+    background-image: url(https://www.mongabay.co.id/wp-content/uploads/2019/06/kota-banda-neira.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#destinasi4 {
+    background-image: url(https://wisatamuda.com/wp-content/uploads/2019/12/17-Oeschinen-Lake-Gambar-Foto-Tempat-Wisata-Terkenal-di-Swiss.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#destinasi5 {
+    background-image: url(https://dynl.mktgcdn.com/p/nuviryp7NBwK0ETX_p5e83gBbrzChc-v2HvBi4md51o/1024x768.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#destinasi6 {
+    background-image: url(https://asset-a.grid.id/crop/0x0:0x0/780x800/photo/bobofoto/original/6367_cappadocia.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.our-gallery {
+    padding: 2rem 9%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url(https://i.ibb.co/FYqV403/20230626-000712.jpg) no-repeat center center;
+    width: 100%;
+    background-size: cover;
+}
+
+.main-heading h1 {
+    text-align: center;
+    color: var(--firstcolor);
+    font-size: 40px;
+    padding: 2rem;
+}
+
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.inner-gallery-img {
+    flex: 1 1 300px;
+}
+
+.inner-gallery-img img {
+    width: 100%;
+}
+
+
+/* footer */
+
+
+.footer {
+    background-color: #1d1d1d;
+    width: 100%;
+    padding: 2rem 7%;
+}
+
+.footer h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 2rem 0;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.inner-footer {
+    flex: 1 1 300px;
+    padding: 3rem;
+}
+
+.inner-footer h2 {
+    color: white;
+    font-size: 22px;
+    padding: 1rem 0;
+}
+
+.inner-footer a {
+    color: white;
+    display: block;
+    align-items: center;
+    font-size: 18px;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+.inner-footer a:hover {
+    margin-left: -10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+}
+.social a {
+    font-size: 27px;
+    margin: 0.5rem;
+}
+.social a .bx {
+    padding: 5px;
+    color: #fff;
+    background: #161616;
+    border-radius: 50%;
+}
+.social a .bx:hover {
+    background: var(--secondcolor);
+}
+.links {
+    margin: 1rem 0 1rem;
+}
+.links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--second-color);
+    padding: 1rem;
+}
+.links a:hover {
+    color: var(--main-color);
+}
+.contact p {
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 60%;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: var(--thirdcolor);
+        width: 100%;
+        height: 100vh;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1.5rem;
+        margin: 1rem;
+        padding: 1.5rem;
+        background: white;
+        color: var(--fourthcolor);
+        border-radius: 15px;
+        border: 3px solid var(--firstcolor);
+    }
+
+    .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    }
+
+    .main-home-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .left-content {
+        padding: 0;
+        margin-top: 30px;
+    }
+
+    .left-content h2 {
+        line-height: normal;
+        font-size-adjust: 32px;
+    }
+
+    .left-content p {
+        font-size: 1.5rem;
+    }
+
+    .main-home-section .inner-home-section {
+        margin-top: 100px;
+    }
+
+    .main-home-section .inner-home-section .right-image img {
+        margin-top: 0;
+        margin-bottom: 50px;
+
+    }
+
+    .inner-favourite .fav-content {
+        padding: 0 3rem;
+    }
+
+    .inner-favourite .fav-content img {
+        width: 80%;
+    }
+
+    .inner-favourite .fav-content p {
+        font-size: 1.5rem;
+    }
+
+    .inner-favourite .fav-content a {
+        font-size: 1.5rem;
+    }
+
+}
