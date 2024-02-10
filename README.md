@@ -11,4 +11,5 @@
 <img width="888" alt="Screenshot 2024-02-02 212558" src="https://github.com/Rezaananda28/Maskapai-Garuda/assets/149340092/a5820ab9-138e-4874-9a7b-4dc7cf1ccef1">
 
 <h3>Footer</h3>
+<p>Halaman contact</p>
 <img width="896" alt="Screenshot 2024-02-02 212731" src="https://github.com/Rezaananda28/Maskapai-Garuda/assets/149340092/ba1f07c1-fc10-4f96-8eea-1b28990d80b6">
