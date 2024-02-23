@@ -1,4 +1,4 @@
-<h3>Halaman Home</h3>
+<h2>Halaman Home</h2>
 <img width="898" alt="Screenshot 2024-02-02 212701" src="https://github.com/Rezaananda28/Maskapai-Garuda/assets/149340092/853fdab3-4a9e-4299-b380-20890786fb4d">
 
 <h3>Halaman Desnitation</h3>
